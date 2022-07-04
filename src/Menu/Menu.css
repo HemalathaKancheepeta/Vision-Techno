@@ -1,0 +1,87 @@
+.tag {
+    text-align: center;
+}
+.imgslider img
+{
+margin-left:450px;
+}
+  
+.slick-slide img {
+    margin: auto;
+    width: 1000px;
+    height: 200px
+}
+
+.aboutImg
+{
+    width: 1000px;
+    height: 200px;
+    border: 1px solid black;
+    padding: 10px 10px 10px 10px;
+    margin: 10px;
+
+}
+.staticTextAbout,.clientsTextAbout,.servicesTextAbout{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    line-height: 1.42857143;
+    font-weight:normal;
+    text-align: left;
+    color: #333;
+}
+.menu{
+    margin: 0;
+list-style-type: none;
+text-align: right;
+font-weight:500;
+padding:15px;
+
+line-height: 40px;
+}
+.menu > li a{
+    color:#333;
+    padding-top: 15px;
+    text-decoration:none;
+    padding-bottom: 15px;
+    line-height:20px;
+}
+.footer2
+{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    font-weight:normal;
+    border-top: 1px solid white;
+    padding: 15px 0px 15px 0px;
+    text-align: center;
+
+    line-height: 1.42857143;
+}
+.menu > li{
+    display: inline;
+margin-right: 15px;
+
+cursor: pointer;
+color:#333;
+}
+.menu-active{
+    color:#337ab7!important;
+    text-decoration: underline;
+    
+    font-weight: bold;
+}
+.mobile-menu-btn{
+    position: absolute;
+    right: 0;
+    top: 110px;
+}
+.mobile-menu{
+    width: 100px;
+    display: inline-block;
+    position: absolute;
+    top: 110px;
+    transition: left 1s;
+    text-align: left !important;
+}
+.mobile-menu > li{
+    display: block !important;
+}
